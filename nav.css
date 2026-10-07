@@ -1,0 +1,22 @@
+nav#panel{
+	border: 3px solid rgb(87, 161, 87);
+	background: rgb(104, 207, 104);
+	max-width: max-content;
+	position: fixed;
+	top:2rem;
+	left:2rem;
+	display: flex;
+}
+nav#panel a {
+	color: inherit;
+	text-decoration: none;
+	padding: 0.5rem;
+}
+nav#panel a:hover{
+	background: green;
+	color: greenyellow;
+
+}
+nav#panel a:visited{
+	text-decoration: line-through;
+}
